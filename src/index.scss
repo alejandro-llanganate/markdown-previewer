@@ -1,0 +1,13 @@
+$fondo-page: hsl(200, 8%, 15%);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $fondo-page;
+  font-family: 'Quicksand', sans-serif;;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,39 @@
+$color-area-fondo: rgb(36, 37, 43);
+$color-area-borde: hsl(219, 32%, 52%);
+
+.editor{
+    width: 700px;
+margin: 1.1em;
+    &-titulo{
+        width: 650px;
+        max-width: 95%;
+        padding: 7px 2px;
+        color: white;
+        border: 1px solid hsl(219, 32%, 52%);
+        text-align: center;
+        background-color: rgb(34, 45, 61);
+        .logo{
+            width: 20px;
+        }
+        label{
+            padding-left: 5px;
+        }
+    }
+    &-area{
+        width: 650px;
+        max-width: 95%;
+        height: 45em;
+        background-color: $color-area-fondo;
+        outline-color: orange;
+        border-color: hsl(219, 32%, 52%);
+        color: white;
+        font-size: 1.2em;
+        line-height: 1.4em;
+    }
+}
+
+@media (max-width: 700px){
+    .editor{
+        width: 90%;
+    }
+}
